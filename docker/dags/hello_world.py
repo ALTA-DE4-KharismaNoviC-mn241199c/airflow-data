@@ -8,7 +8,7 @@ def print_hello():
 dag = DAG(
         'alterra_hello_world', 
         description='Hello World DAG',
-        schedule_interval='* * * * *',
+        schedule_interval=None,
         start_date=datetime(2022, 10, 21), 
         catchup=False
     )
